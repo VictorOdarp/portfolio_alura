@@ -4,28 +4,27 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 body{
     background-color: black;
+    height: 100vh;
+    color: white;
+    box-sizing: border-box;
 }
 
 .container-portfolio{
-    width: 1000px;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    margin-top: 30vh;
+    margin: 10% 20%;
+    justify-content: space-between;
     display: flex;
     align-items: center;
 }
 
 .portfolio{
+    width: 615px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 40px;
 }
 
 .container-portfolio .portfolio .strong-titulo{
@@ -47,23 +46,22 @@ body{
 .portfolio-botoes{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 32px;
 }
 
 .portfolio-botoes h2{
     font-family: "Krona One", sans-serif;
-    font-size: 16px;
-    font-weight: 100;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .portfolio-botoes a{
     background-color: black;
-    padding: 10px 20px;
-    width: 45%;
-    border-radius: 10px;
-    border: solid 1px aqua;
+    padding: 21.5px 0px;
+    width: 378px;
+    border-radius: 8px;
+    border: solid 2px aqua;
     text-decoration: none;
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -71,30 +69,4 @@ body{
     font-size: 18px;
     text-align: center;
 }
-
-.container-imagem img{
-    max-width: 400px;
-    padding-left: 20px;
-    margin-bottom: 18%;
-}
-
-footer{
-    width: 100%;
-    background-color: aqua;
-    bottom: 0;
-    position: fixed;
-    text-align: center;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer h1{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: white;
-}
-
 
