@@ -8,13 +8,18 @@
 
 body{
     background-color: black;
-    height: 100vh;
     color: white;
     box-sizing: border-box;
 }
 
+.cabecalho{
+    display: flex;
+    gap: 100px;
+    font-size: 16px;
+}
+
 .container-portfolio{
-    margin: 10% 20%;
+    padding: 8% 20%;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -27,18 +32,18 @@ body{
     gap: 40px;
 }
 
-.container-portfolio .portfolio .strong-titulo{
+.strong-titulo{
     color:aqua;
 }
 
-.container-portfolio .portfolio h1{
+.portfolio h1{
     font-family: "Krona One", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
 }
 
-.container-portfolio .portfolio p{
+.portfolio p{
     font-family:"Montserrat", sans-serif;
     font-size: 23px;
 }
@@ -57,6 +62,10 @@ body{
 }
 
 .portfolio-botoes a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
     background-color: black;
     padding: 21.5px 0px;
     width: 378px;
@@ -70,3 +79,20 @@ body{
     text-align: center;
 }
 
+.portfolio-botoes a:hover{
+    background-color: #272727;
+}
+
+.rodape{
+    width: 100%;
+    background-color: aqua;
+    padding: 24px 0px;
+    color: black;
+    text-align: center;
+}
+
+.rodape h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
