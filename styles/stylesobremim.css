@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    padding: 2% 0% 0% 20%; 
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-menu-link{
+    color: aqua;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cabecalho-menu-link:hover{
+    color: white;
+}
+
+.container-portfolio{
+    padding: 4.3% 20%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio{
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.portfolio h1{
+    font-family: "Krona One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.portfolio p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+.rodape{
+    width: 100%;
+    background-color: aqua;
+    padding: 24px 0px;
+    color: black;
+    text-align: center;
+}
+
+.rodape h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
