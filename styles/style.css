@@ -22,7 +22,6 @@ body{
 }
 
 .cabecalho{
-    display: flex;
     padding: 2% 0% 0% 20%; 
 }
 
@@ -45,7 +44,7 @@ body{
 }
 
 .container-portfolio{
-    padding: 4.3% 20%;
+    padding: 2.4% 20%;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -110,7 +109,7 @@ body{
 }
 
 .imagem{
-    width: 50%;
+    width: 45%;
 }
 
 .rodape{
@@ -127,31 +126,27 @@ body{
     font-weight: 400;
 }
 
-@media (max-width: 720px){
+@media (max-width: 1200px){
 
     .cabecalho{
-        display: flex;
-        padding: 15% 20% 20% 20%; 
+        padding: 10%
     }
     
     .cabecalho-menu{
-        display: flex;
-        gap: 80px;
+        justify-content: center;
     }
     
     .cabecalho-menu-link{
         font-size: 1rem;
-        font-weight: 600;
-        cursor: pointer;
-        text-decoration: none;
     }
 
     .imagem{
         width: 120%;
         padding: 0% 20% 20% 20%;
     }
+
     .container-portfolio{
-        padding: 10% 20%;
+        padding: 0% 20% 15% 20%;
         flex-direction: column-reverse;
     }
 

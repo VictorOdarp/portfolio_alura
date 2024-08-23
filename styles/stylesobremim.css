@@ -22,7 +22,6 @@ body{
 }
 
 .cabecalho{
-    display: flex;
     padding: 2% 0% 0% 20%; 
 }
 
@@ -45,7 +44,7 @@ body{
 }
 
 .container-portfolio{
-    padding: 4.3% 20%;
+    padding: 4% 20%;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -69,6 +68,10 @@ body{
     font-family: var(--secondary-font);
     font-size: 1.25rem;
 }
+
+.imagem{
+    width: 45%;
+}
 .rodape{
     width: 100%;
     background-color: var(--tertiary-color);
@@ -81,4 +84,41 @@ body{
     font-family: var(--secondary-font);
     font-size: 1.12rem;
     font-weight: 400;
+}
+
+@media (max-width: 1280px){
+
+    .cabecalho{
+        padding: 10% 
+    }
+
+    .cabecalho-menu{
+        justify-content: center;
+    }
+    
+    .cabecalho-menu-link{
+        font-size: 1rem;
+    }
+
+    .imagem{
+        width: 120%;
+        padding: 0% 20% 20% 20%;
+    }
+    .container-portfolio{
+        padding: 0% 20% 15% 20%;
+        flex-direction: column-reverse;
+    }
+
+    .portfolio{
+        width: 150%;
+        gap: 30px;
+    }
+
+    .portfolio h1{
+        font-size: 1.25rem;
+    }
+
+    .portfolio p{
+        font-size: 1rem;
+    }
 }
